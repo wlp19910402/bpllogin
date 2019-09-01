@@ -1,0 +1,40 @@
+.blur {
+  -webkit-filter: blur(8px); /* Chrome, Opera */
+     -moz-filter: blur(8px);
+      -ms-filter: blur(8px);
+          filter: blur(8px);
+}
+.shadow-box-white{
+  box-shadow: 0 0 6px 0px rgba(255,255,255,0.6);
+}
+.float-left{float: left;}
+.float-right{float: right;}
+.mobile-container{max-width: 640px;position: fixed;width: 100%;height: 100%;overflow: hidden;background: #000;text-align: center;}
+.mobile-bg-img{width: 100%;height: 100%;background-size: cover;background-position: center center;}
+.login-form-box{width:6.78rem;height:9.63rem ;position: absolute;left: .36rem;top: 50%;margin-top: -5rem;padding:2.8rem 0 0;box-sizing:border-box;background: url(../image/login-from-bg.png) center/100% 100%;}
+
+.login-logo{width: 1.8rem;height: 1.8rem;position: absolute;top: .46rem;left: 50%;margin-left: -0.9rem;}
+
+.from-box{
+  width: 4.8rem;
+  margin: 0 auto;
+}
+.login-input-box{width: 4.8rem;height:.72rem;display: flex;border-bottom: 1px solid #d09d6c;padding:.12rem 0;box-sizing: border-box;margin: 0.2rem 0;}
+.login-icon{background-size: .48rem .48rem;background-repeat: no-repeat;background-position: left center;height: .48rem;width: .6rem;border-right: 1px solid #d09d6c;}
+.login-icon-user{background-image: url(../image/login-user-icon.png);}
+.login-icon-password{background-image: url(../image/login-password-icon.png);}
+.login-input{height: .48rem;padding-left: .1rem;background: transparent;flex: 1;font-size:.24rem;line-height: .48rem;color: #ffffff;}
+.login-skip-links-box{width: 4.8rem;height: .48rem;color: #f9a224;font-size: .24rem;margin-top:-0.1rem ;}
+.login-skip-link{text-decoration: underline;}
+.text-error{height: .42rem;width: 4.8rem;text-align: center;color:#ff002a ;font-size: .24rem;line-height: .42rem;}
+.login-btn{width: 4.8rem;height: .6rem;margin: 0 auto;background:#f9a224 ;color: #ffffff;border-radius: 6px;}
+
+/*第三方登录*/
+.third-party-login-box{width: 6.4rem;margin: 0 auto;}
+.title-box{display: flex;height: .6rem;width: 100%;margin: .2rem 0 .1rem;}
+.title-line{height: 1px;background:rgba(255,255,255,0.3);flex: 1;margin-top: .3rem;}
+.title-text{font-size: .24rem;color: #ffffff;text-align: center;width: 1.6rem;line-height: .6rem;font-weight: 300;}
+.third-party-login-App{width: 4.8rem;margin: 0 auto;}
+.third-party-login-icon{width:1.28rem;height: 1.28rem;background: rgba(0,0,0,0.6);border-radius: 50%;}
+.third-party-login-icon-img{width: 100%;height: 100%;}
+.third-party-login-text{width: 1.28rem;text-align: center;font-size: .24rem;margin-top: .2rem;color: #ffffff;}

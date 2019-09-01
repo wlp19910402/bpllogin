@@ -1,0 +1,6 @@
+*{margin: 0;padding: 0;font-size: .24rem;}
+body{margin: 0;padding: 0;}
+ul,li,ol{list-style: none;}
+a{text-decoration: none;}
+a:hover{background-color: #fff1f1;}
+input,select,button{border: none;list-style: none;box-shadow: none;-webkit-appearance: none;}
